@@ -140,39 +140,6 @@
         }
       },
       {
-        "HashCode": 525127385,
-        "Kind": "Components.Component",
-        "Name": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList",
-        "AssemblyName": "UAS_PROGMOB_GS2223_72200383",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PhotosList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList"
-        }
-      },
-      {
-        "HashCode": 17813618,
-        "Kind": "Components.Component",
-        "Name": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList",
-        "AssemblyName": "UAS_PROGMOB_GS2223_72200383",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1174703314,
         "Kind": "Components.Component",
         "Name": "UAS_PROGMOB_GS2223_72200383.Pages.PostsList",
@@ -235,6 +202,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "UAS_PROGMOB_GS2223_72200383.Pages.CommentsList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 525127385,
+        "Kind": "Components.Component",
+        "Name": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList",
+        "AssemblyName": "UAS_PROGMOB_GS2223_72200383",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PhotosList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList"
+        }
+      },
+      {
+        "HashCode": 17813618,
+        "Kind": "Components.Component",
+        "Name": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList",
+        "AssemblyName": "UAS_PROGMOB_GS2223_72200383",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "UAS_PROGMOB_GS2223_72200383.Pages.PhotosList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
