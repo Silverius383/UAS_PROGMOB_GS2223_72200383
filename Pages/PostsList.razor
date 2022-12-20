@@ -1,0 +1,56 @@
+@page "/posts"
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@inject HttpClient Http
+
+<PageTitle>Posts</PageTitle>
+
+<h1>List</h1>
+
+
+@if (posts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>BODY</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in posts)
+            {
+                <tr>
+                    <td>@post.id</td>
+                    <td>@post.title</td>
+                    <td>@post.body</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Posts[]? posts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await Http.GetFromJsonAsync<Posts[]>("https://jsonplaceholder.typicode.com/posts");
+    }
+
+     public class Posts{
+        public int id { get; set; }
+
+        public string title { get; set; }
+
+        public string body { get; set; }
+ }
+ 
+}
